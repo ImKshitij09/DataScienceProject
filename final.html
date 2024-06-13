@@ -11,7 +11,8 @@
   <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Kshitij Kshitij">
-  <title>Presentation for Term Paper</title>
+  <meta name="dcterms.date" content="2024-06-13">
+  <title>Presentation: Data Science Final Paper</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -391,7 +392,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Presentation for Term Paper</h1>
+  <h1 class="title">Presentation: Data Science Final Paper</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -401,6 +402,7 @@ Kshitij Kshitij
 </div>
 </div>
 
+  <p class="date">2024-06-13</p>
 </section>
 <section>
 <section id="introduction" class="title-slide slide level1 center">
@@ -471,7 +473,7 @@ Kshitij Kshitij
 <section id="code-2" class="slide level2">
 <h2>Code</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" data-code-line-numbers="|1|2|3|4|5-8|9-13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> GDP_per_capita, <span class="at">y =</span> pct_tax)) <span class="sc">+</span></span>
+<div class="sourceCode cell-code" id="cb4" data-code-line-numbers="|1|2|3|4-8|9-13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> GDP_per_capita, <span class="at">y =</span> pct_tax)) <span class="sc">+</span></span>
 <span id="cb4-2"><a href=""></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
 <span id="cb4-3"><a href=""></a>  <span class="fu">scale_x_log10</span>() <span class="sc">+</span>  <span class="co"># Log scale for GDP per capita</span></span>
 <span id="cb4-4"><a href=""></a>  <span class="fu">labs</span>(</span>
@@ -506,11 +508,13 @@ Kshitij Kshitij
 <li><p>Familiarizing with the dataset, understanding the variables, and their significance.</p></li>
 <li><p>Dealing with missing values in the dataset and filtering.</p></li>
 <li><p>Exact points not being depicted as shown in the result given on the paper</p></li>
+<li><p>Faced many issues while pushing the presentation to Github</p></li>
 </ul>
 </section>
 <section id="references" class="slide level2">
 <h2>References</h2>
 <p>Pierre Bachas, Anders Jensen, and Lucie Gadenne. Tax equity in low- and middle-income countries. Journal of Economic Perspectives, 38(1):55–80, February 2024. doi: 10.1257/jep. 38.1.55. URL <a href="https://www.aeaweb.org/articles?id=10.1257/jep.38.1.55." class="uri">https://www.aeaweb.org/articles?id=10.1257/jep.38.1.55.</a></p>
+<p>Bachas, Pierre, Matthew H. Fisher-Post, Anders Jensen, and Gabriel Zucman. 2022c. “Database for: Globalization and Factor Income Taxation.” NBER Working Paper 29819. https://globaltaxation. world</p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
@@ -568,7 +572,7 @@ Kshitij Kshitij
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
